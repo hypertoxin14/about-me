@@ -1,22 +1,22 @@
 
 body {
-    background-color: lightgray;
+    background-color: black;
 }
 h1 {
     text-align: left;
-    color: black;
+    color: white;
 }
 h2 {
- color: black;   
+ color: white;   
 }
 p {
     font-size: medium;
-    color: white;
+    color: red;
     border-width: 5px;
     border-style: solid;
     border-radius: 7px;
-    border-color: darkgray;
-    background-color: black;
+    border-color: darkred;
+    background-color: darkgray;
 }
 .profile {
     float: right;
@@ -26,4 +26,11 @@ p {
     border-style: solid;
     width: 100px;
     height: 100px;
+}
+.menu-bar {
+    border-color: darkblue;
+    background-color: whitesmoke;
+    font-size: large;
+    color: rgb(16, 60, 237);
+    text-align: center;
 }
